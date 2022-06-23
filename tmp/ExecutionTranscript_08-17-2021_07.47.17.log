@@ -1,0 +1,178 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210817074718
+Username: RACKSPACE\andy9234
+RunAs User: RACKSPACE\andy9234
+Configuration Name: 
+Machine: ANDY-W10-DSKTP1 (Microsoft Windows NT 10.0.19042.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe D:\OneDrive-Personal\OneDrive\Script_Projects\SQL_Analysis\SQLServerAnalysis.ps1
+Process ID: 47856
+PSVersion: 5.1.19041.1023
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1023
+BuildVersion: 10.0.19041.1023
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\OneDrive-Personal\OneDrive\Script_Projects\SQL_Analysis\tmp\ExecutionTranscript_08-17-2021_07.47.17.log
+PS>TerminatingError(): "System error."
+PS>TerminatingError(): "Exception calling "FindAll" with "0" argument(s): "The specified domain either does not exist or could not be contacted.
+""
+PS>TerminatingError(): "Invalid namespace "
+>> TerminatingError(): "Invalid namespace "
+The following tests will be run:
+AgentServiceAccount
+BackupPathAccess
+BuiltInAdmin
+ClusterHealth
+DefaultFilePath
+DiskAllocationUnit
+DiskCapacity
+DomainName
+InstanceConnection
+NonStandardPort
+OrganizationalUnit
+PingComputer
+SqlEngineServiceAccount
+PS>TerminatingError(): "Expected strings to be the same, because The agent service is required to run SQL Agent jobs, but they were different.
+String lengths are both 7.
+Strings differ at index 0.
+Expected: 'Running'
+But was:  'Stopped'"
+>> TerminatingError(): "Expected strings to be the same, because The agent service is required to run SQL Agent jobs, but they were different.
+String lengths are both 7.
+Strings differ at index 0.
+Expected: 'Running'
+But was:  'Stopped'"
+>> TerminatingError(): "Expected strings to be the same, because The agent service is required to run SQL Agent jobs, but they were different.
+String lengths are both 7.
+Strings differ at index 0.
+Expected: 'Running'
+But was:  'Stopped'"
+PS>TerminatingError(): "Expected strings to be the same, because Otherwise the Agent Jobs wont run if the server is restarted, but they were different.
+Expected length: 9
+Actual length:   6
+Strings differ at index 0.
+Expected: 'Automatic'
+But was:  'Manual'"
+>> TerminatingError(): "Expected strings to be the same, because Otherwise the Agent Jobs wont run if the server is restarted, but they were different.
+Expected length: 9
+Actual length:   6
+Strings differ at index 0.
+Expected: 'Automatic'
+But was:  'Manual'"
+>> TerminatingError(): "Expected strings to be the same, because Otherwise the Agent Jobs wont run if the server is restarted, but they were different.
+Expected length: 9
+Actual length:   6
+Strings differ at index 0.
+Expected: 'Automatic'
+But was:  'Manual'"
+[
+07:48:40
+][
+Set-DbcFile
+] Exported results to D:\OneDrive-Personal\OneDrive\Script_Projects\SQL_Analysis\tmp\andy-w10-dsktp1_dbaChecks_08-17-2021_07.47.17-Agent.csv
+[
+07:48:44
+][
+Set-DbcFile
+] Exported results to D:\OneDrive-Personal\OneDrive\Script_Projects\SQL_Analysis\tmp\andy-w10-dsktp1_dbaChecks_08-17-2021_07.47.17-Instance.csv
+[
+07:48:45
+][
+Set-DbcFile
+] Exported results to D:\OneDrive-Personal\OneDrive\Script_Projects\SQL_Analysis\tmp\andy-w10-dsktp1_dbaChecks_08-17-2021_07.47.17-Instance.csv
+PS>TerminatingError(): "Expected 'C' to be different from the actual value, because Default Data file path should not be your C:\ drive, but got the same value."
+>> TerminatingError(): "Expected 'C' to be different from the actual value, because Default Data file path should not be your C:\ drive, but got the same value."
+>> TerminatingError(): "Expected 'C' to be different from the actual value, because Default Data file path should not be your C:\ drive, but got the same value."
+PS>TerminatingError(): "Expected 'C' to be different from the actual value, because Default Log file path should not be your C:\ drive, but got the same value."
+>> TerminatingError(): "Expected 'C' to be different from the actual value, because Default Log file path should not be your C:\ drive, but got the same value."
+>> TerminatingError(): "Expected 'C' to be different from the actual value, because Default Log file path should not be your C:\ drive, but got the same value."
+[
+07:48:47
+][
+Set-DbcFile
+] Exported results to D:\OneDrive-Personal\OneDrive\Script_Projects\SQL_Analysis\tmp\andy-w10-dsktp1_dbaChecks_08-17-2021_07.47.17-Instance.csv
+PS>TerminatingError(): "Expected strings to be the same, but they were different.
+Expected length: 8
+Actual length:   4
+Strings differ at index 0.
+Expected: 'Kerberos'
+But was:  'NTLM'"
+>> TerminatingError(): "Expected strings to be the same, but they were different.
+Expected length: 8
+Actual length:   4
+Strings differ at index 0.
+Expected: 'Kerberos'
+But was:  'NTLM'"
+>> TerminatingError(): "Expected strings to be the same, but they were different.
+Expected length: 8
+Actual length:   4
+Strings differ at index 0.
+Expected: 'Kerberos'
+But was:  'NTLM'"
+PS>TerminatingError(): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: [ANDY-W10-DSKTP1] Connecting to remote server ANDY-W10-DSKTP1 failed with the following error message : The client cannot connect to the destination specified in the request. Verify that the service on the destination is running and is accepting requests. Consult the logs and documentation for the WS-Management service running on the destination, most commonly IIS or WinRM. If the destination is the WinRM service, run the following command on the destination to analyze and configure the WinRM service: "winrm quickconfig". For more information, see the about_Remote_Troubleshooting Help topic."
+PS>TerminatingError(): "Expected $true, but got $false."
+>> TerminatingError(): "Expected $true, but got $false."
+>> TerminatingError(): "Expected $true, but got $false."
+[
+07:50:01
+][
+Set-DbcFile
+] Exported results to D:\OneDrive-Personal\OneDrive\Script_Projects\SQL_Analysis\tmp\andy-w10-dsktp1_dbaChecks_08-17-2021_07.47.17-Instance.csv
+[
+07:50:03
+][
+Set-DbcFile
+] Exported results to D:\OneDrive-Personal\OneDrive\Script_Projects\SQL_Analysis\tmp\andy-w10-dsktp1_dbaChecks_08-17-2021_07.47.17-Instance.csv
+PS>TerminatingError(): "Expected $true, because SQL Server performance will be better when accessing data from a disk that is formatted with 64Kb block allocation unit, but got $false."
+>> TerminatingError(): "Expected $true, because SQL Server performance will be better when accessing data from a disk that is formatted with 64Kb block allocation unit, but got $false."
+>> TerminatingError(): "Expected $true, because SQL Server performance will be better when accessing data from a disk that is formatted with 64Kb block allocation unit, but got $false."
+>> TerminatingError(): "Expected $true, because SQL Server performance will be better when accessing data from a disk that is formatted with 64Kb block allocation unit, but got $false."
+[
+07:50:20
+][
+Set-DbcFile
+] Exported results to D:\OneDrive-Personal\OneDrive\Script_Projects\SQL_Analysis\tmp\andy-w10-dsktp1_dbaChecks_08-17-2021_07.47.17-Server.csv
+[
+07:50:21
+][
+Set-DbcFile
+] Exported results to D:\OneDrive-Personal\OneDrive\Script_Projects\SQL_Analysis\tmp\andy-w10-dsktp1_dbaChecks_08-17-2021_07.47.17-Server.csv
+PS>TerminatingError(): "Exception calling "FindAll" with "0" argument(s): "The specified domain either does not exist or could not be contacted.
+""
+PS>TerminatingError(): "Invalid namespace "
+>> TerminatingError(): "Invalid namespace "
+PS>TerminatingError(): "Expected 0, because SQL Server should be configured to not use the standard port of 1433, but got 1."
+>> TerminatingError(): "Expected 0, because SQL Server should be configured to not use the standard port of 1433, but got 1."
+>> TerminatingError(): "Expected 0, because SQL Server should be configured to not use the standard port of 1433, but got 1."
+>> TerminatingError(): "Expected 0, because SQL Server should be configured to not use the standard port of 1433, but got 1."
+[
+07:51:07
+][
+Set-DbcFile
+] Exported results to D:\OneDrive-Personal\OneDrive\Script_Projects\SQL_Analysis\tmp\andy-w10-dsktp1_dbaChecks_08-17-2021_07.47.17-Server.csv
+[
+07:51:10
+][
+Set-DbcFile
+] Exported results to D:\OneDrive-Personal\OneDrive\Script_Projects\SQL_Analysis\tmp\andy-w10-dsktp1_dbaChecks_08-17-2021_07.47.17-Server.csv
+PS>TerminatingError(): "Expected $null, because The machine needs to be on the domain, but got 'WORKGROUP'."
+>> TerminatingError(): "Expected $null, because The machine needs to be on the domain, but got 'WORKGROUP'."
+>> TerminatingError(): "Expected $null, because The machine needs to be on the domain, but got 'WORKGROUP'."
+[
+07:51:11
+][
+Set-DbcFile
+] Exported results to D:\OneDrive-Personal\OneDrive\Script_Projects\SQL_Analysis\tmp\andy-w10-dsktp1_dbaChecks_08-17-2021_07.47.17-Domain.csv
+[
+07:51:12
+][
+Set-DbcFile
+] Exported results to D:\OneDrive-Personal\OneDrive\Script_Projects\SQL_Analysis\tmp\andy-w10-dsktp1_dbaChecks_08-17-2021_07.47.17-Domain.csv
+**********************
+Windows PowerShell transcript end
+End time: 20210817075113
+**********************

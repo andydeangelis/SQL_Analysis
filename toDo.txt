@@ -1,0 +1,3 @@
+Add functionality tro pull all installed roles from all servers
+Add functionality to check NUMA configuration.
+Create Wiki How-To article

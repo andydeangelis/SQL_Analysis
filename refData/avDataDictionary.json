@@ -1,0 +1,198 @@
+{
+    "McAfee": {
+        "Services": [
+            {
+                "SvcName": "MASVC",
+                "Executable": "masvc.exe",
+                "Description": "McAfee Agent service"
+            },
+            {
+                "SvcName": "MACMNSVC",
+                "Executable": "macmnsvc.exe",
+                "Description": "McAfee Agent Common services"
+            },
+            {
+                "SvcName": "MACOMPATSVC",
+                "Executable": "x86\\macompatsvc.exe",
+                "Description": "McAfee Agent Backwards Compatibility Service"
+            },
+            {
+                "SvcName": "MFEFIRE",
+                "Executable": "mfefire.exe",
+                "Description": "Provides firewall services to McAfee products"
+            },
+            {
+                "SvcName": "MFEMMS",
+                "Executable": "mfemms.exe",
+                "Description": "Manages McAfee services"
+            },
+            {
+                "SvcName": "MFEVTPS",
+                "Executable": "mfevtps.exe",
+                "Description": "Provides validation trust protection services"
+            }
+        ]
+    },
+    "Sophos": {
+        "Services": [
+            {
+                "SvcName": "Sophos Anti-Virus Service",
+                "Executable": "SAVService.exe",
+                "Description": "This service starts and runs anti-virus software components, including the on-access scanner."
+            },
+            {
+                "SvcName": "Sophos Anti-Virus Status Reporter",
+                "Executable": "SAVAdminService.exe",
+                "Description": "Where available it reports to the Windows Security Center (WSC) providing information about Sophos Anti-Virus. On computers without the WSC, the service runs but does nothing."
+            },
+            {
+                "SvcName": "Sophos AutoUpdate Service",
+                "Executable": "ALSvc.exe",
+                "Description": "Monitors a distribution folder (share) and updates endpoint components (including malware IDEntity files) whenever there are newer versions available. Will also download when the local AutoUpdate cache is incomplete or when the catalog in the share has changed."
+            },
+            {
+                "SvcName": "Sophos Clean",
+                "Executable": "SophosClean.exe",
+                "Description": "Cleans up malware detected by Intercept X (HMPA), Exploit Prevention, and PE files."
+            },
+            {
+                "SvcName": "Sophos Device Control Service",
+                "Executable": "Sdcservice.exe",
+                "Description": "Performs device control functions such as detecting and blocking unauthorized USB devices attached to the computer."
+            },
+            {
+                "SvcName": "Sophos Device Encryption Service",
+                "Executable": "Sophos.Encryption.BitLockerService.exe",
+                "Description": "Manages BitLocker disk encryption."
+            },
+            {
+                "SvcName": "Sophos Endpoint Defense Service",
+                "Executable": "SEDService.exe",
+                "Description": "Prevents undesired actions to Sophos components which is explained further on KBA 123654."
+            },
+            {
+                "SvcName": "Sophos File Scanner Service",
+                "Executable": "SophosFS.exe",
+                "Description": "Used to scans files for reputation, deep learning, and Application ID."
+            },
+            {
+                "SvcName": "Sophos Live Query",
+                "Executable": "SophosLiveQueryService.exe",
+                "Description": "Used to manage and performs live query actions on the device."
+            },
+            {
+                "SvcName": "Sophos Health Service",
+                "Executable": "SophosHealth.exe",
+                "Description": "Determines the health status of the endpoint."
+            },
+            {
+                "SvcName": "Sophos MCS Agent",
+                "Executable": "mcsagent.exe",
+                "Description": "Management Communications Agent"
+            },
+            {
+                "SvcName": "Sophos MCS Client",
+                "Executable": "mcsclient.exe",
+                "Description": "Management Communications Client"
+            },
+            {
+                "SvcName": "Sophos Network Threat Protection",
+                "Executable": "SntpService.exe",
+                "Description": "Intercepts outgoing network traffic and then makes use of Sophos System Protection to determine the reputation of the destination.Forwards the results to the HIPS system to determine any follow on actions."
+            },
+            {
+                "SvcName": "Sophos SafeStore",
+                "Executable": "SophosSafestore64.exe",
+                "Description": "Allows customers and Sophos to release items from the SafeStore which will move the items back to their original locations, basically reverting them to a state before removal. This is the primary remediation agent for Machine Learning and Exploit prevention detections."
+            },
+            {
+                "SvcName": "Sophos System Protection Service",
+                "Executable": "SSPService.exe",
+                "Description": "Gathers and records information from other Sophos components on the system and can look up information from Sophos cloud services. The information gathered from multiple sources is used intelligently to improve the detection of malicious files, processes, and traffic."
+            },
+            {
+                "SvcName": "Sophos Web Control Service",
+                "Executable": "Swc_service.exe",
+                "Description": "Manages Web Control policies."
+            },
+            {
+                "SvcName": "Sophos Web Intelligence Service",
+                "Executable": "Swi_service.exe",
+                "Description": "Protects against threats from malicious websites."
+            },
+            {
+                "SvcName": "Sophos Web Filter",
+                "Executable": "swi_filter.exe",
+                "Description": "Ensures web usage is safe and consistent with policy. (Windows 8+/2012+ only)."
+            },
+            {
+                "SvcName": "HitmanPro.Alert service",
+                "Executable": "hmpalert.exe",
+                "Description": "Exploit mitigation and web browser intrusion detection, real-time, and behavior-based."
+            },
+            {
+                "SvcName": "Sophos Managed Threat Response",
+                "Executable": "SophosMTR.exe",
+                "Description": "Threat hunting and monitoring for suspicious activity"
+            }
+        ]
+    },
+    "CrowdStrike": {
+        "Services": [
+            {
+                "SvcName": "CrowdStrike Falcon Sensor Service",
+                "Executable": "CSFalconService.exe",
+                "Description": "Helps protect the system from malicious activities."
+            }
+        ]
+    },
+    "Symantec": {
+        "Services": [
+            {
+                "SvcName": "Symantec Endpoint Protection",
+                "Executable": "sms.dll",
+                "Description": "Provides malware and threat protection for Symantec Endpoint Protection"
+            },
+            {
+                "SvcName": "Symantec Network Access Control",
+                "Executable": "snac64.exe",
+                "Description": "Checks that the computer complies with the defined security policy and communicates with the Symantec Enforcers to allow your computer to access the corporate network."
+            },
+            {
+                "SvcName": "Symantec Embedded Database",
+                "Executable": "dbsrv16.exe",
+                "Description": "Embedded database used by Symantec Endpoint Protection Manager"
+            },
+            {
+                "SvcName": "Symantec Endpoint Protection Launcher",
+                "Executable": "SemLaunchSvc.exe",
+                "Description": "Launch service which can invoke special processes for Symantec Endpoint Protection Manager."
+            },
+            {
+                "SvcName": "Symantec Endpoint Protection Manager",
+                "Executable": "SemSvc.exe",
+                "Description": "Application server which communicates with Symantec Endpoint Protection Manager, Symantec Protection clients, and a database."
+            },
+            {
+                "SvcName": "Symantec Endpoint Protection Manager API Service",
+                "Executable": "SemSvc.exe",
+                "Description": "Application server provides web services."
+            },
+            {
+                "SvcName": "Symantec MSS DB Connector",
+                "Executable": "prunsrv.exe",
+                "Description": "This service allows a MSS Collector to remotely access DB services. This is service is only installed when the Synapse Log Collector for SEPM Embedded DB is installed for ATP. The log collector enables ATP to collect incident logs from a Symantec Endpoint Protection Manager database."
+            },
+            {
+                "SvcName": "Symantec Endpoint Protection Bridge Service",
+                "Executable": "prunsrv.exe",
+                "Description": "Bridge service."
+            },
+            {
+                "SvcName": "Symantec Endpoint Protection Bridge Uploader Service",
+                "Executable": "BridgeUploaderSrv.exe",
+                "Description": "Data uploader service."
+            }
+        ]
+    }
+}
