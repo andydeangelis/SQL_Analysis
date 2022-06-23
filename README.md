@@ -1,6 +1,6 @@
 # SQL_Analysis
  
- This package will analyze a SQL Server stand-alone instance, cluster or AOAG and return a report outlining best practices, areas of improvement, cluster reports and a sleq of other information. This test suite is comprised of checks using the DbaTools/DbcChecks PowerShell modules, Blitz stored procedures by Brent Ozar, Maintenance Plan scripts by Ola Hallengren, along with SQL/Powershell scripts written by me.
+ This package will analyze a SQL Server stand-alone instance, cluster or AOAG and return a report outlining best practices, areas of improvement, cluster reports and a slew of other information. This test suite is comprised of checks using the DbaTools/DbcChecks PowerShell modules, Blitz stored procedures by Brent Ozar, Maintenance Plan scripts by Ola Hallengren, along with SQL/Powershell scripts written by me.
 
 # REQUIREMENTS
 
